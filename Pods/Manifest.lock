@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.1.0):
+    - CocoaLumberjack/Default (= 3.1.0)
+    - CocoaLumberjack/Extensions (= 3.1.0)
+  - CocoaLumberjack/Default (3.1.0)
+  - CocoaLumberjack/Extensions (3.1.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (3.1.0):
+    - CocoaLumberjack/Default
+  - KMSDK (0.1.0):
+    - AFNetworking (~> 3.1.0)
+    - CocoaLumberjack (~> 3.1.0)
+    - CocoaLumberjack/Swift (~> 3.1.0)
+    - WebViewJavascriptBridge (~> 6.0.2)
+  - WebViewJavascriptBridge (6.0.2)
+
+DEPENDENCIES:
+  - KMSDK
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
+  KMSDK: 5930497bddcaf2edf215beac09171395aa9c8ee9
+  WebViewJavascriptBridge: 791ee0e26d1bf15efe5fb7fb9666a71a19b89d77
+
+PODFILE CHECKSUM: f7d6dbafa006f3c8b805be90a7ecc64e0769f942
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8989FA7B681FC4D648A895FF /* Pods_KMSDK_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E1121F298096EC9F896CA /* Pods_KMSDK_SampleTests.framework */; };
+		ED0CEA7D1E707A07003FF5DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEA7C1E707A07003FF5DB /* AppDelegate.swift */; };
+		ED0CEA7F1E707A07003FF5DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEA7E1E707A07003FF5DB /* ViewController.swift */; };
+		ED0CEA821E707A07003FF5DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEA801E707A07003FF5DB /* Main.storyboard */; };
+		ED0CEA841E707A07003FF5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEA831E707A07003FF5DB /* Assets.xcassets */; };
+		ED0CEA871E707A07003FF5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEA851E707A07003FF5DB /* LaunchScreen.storyboard */; };
+		ED0CEA921E707A07003FF5DB /* KMSDK_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEA911E707A07003FF5DB /* KMSDK_SampleTests.swift */; };
+		ED0CEA9D1E707A07003FF5DB /* KMSDK_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEA9C1E707A07003FF5DB /* KMSDK_SampleUITests.swift */; };
+		F361A31B36B43164E9E11A22 /* Pods_KMSDK_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC87B6003795572BEF6AB28 /* Pods_KMSDK_SampleUITests.framework */; };
+		F6F6DC0D65EE506F08D026CB /* Pods_KMSDK_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41D9C94D5C956F9DDAC3623 /* Pods_KMSDK_Sample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED0CEA8E1E707A07003FF5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED0CEA711E707A07003FF5DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0CEA781E707A07003FF5DB;
+			remoteInfo = "KMSDK Sample";
+		};
+		ED0CEA991E707A07003FF5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED0CEA711E707A07003FF5DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0CEA781E707A07003FF5DB;
+			remoteInfo = "KMSDK Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED0CEAB31E708D66003FF5DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0EEA217CC7C9C7985F6546BF /* Pods-KMSDK SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMSDK SampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMSDK SampleUITests/Pods-KMSDK SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F092E5F93324ADFE9208EF2 /* Pods-KMSDK Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMSDK Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMSDK Sample/Pods-KMSDK Sample.release.xcconfig"; sourceTree = "<group>"; };
+		5AC87B6003795572BEF6AB28 /* Pods_KMSDK_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMSDK_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFBF0B0D7A99C52ABC2A55D /* Pods-KMSDK SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMSDK SampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMSDK SampleTests/Pods-KMSDK SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62879659296FE7628801CF1B /* Pods-KMSDK SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMSDK SampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMSDK SampleTests/Pods-KMSDK SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A3E1121F298096EC9F896CA /* Pods_KMSDK_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMSDK_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00ED63E2167C9AE14C88A69 /* Pods-KMSDK SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMSDK SampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMSDK SampleUITests/Pods-KMSDK SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDFA7536F91835E4841836C1 /* Pods-KMSDK Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMSDK Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMSDK Sample/Pods-KMSDK Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0CEA791E707A07003FF5DB /* KMSDK Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KMSDK Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0CEA7C1E707A07003FF5DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED0CEA7E1E707A07003FF5DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED0CEA811E707A07003FF5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED0CEA831E707A07003FF5DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED0CEA861E707A07003FF5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED0CEA881E707A07003FF5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0CEA8D1E707A07003FF5DB /* KMSDK SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KMSDK SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0CEA911E707A07003FF5DB /* KMSDK_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMSDK_SampleTests.swift; sourceTree = "<group>"; };
+		ED0CEA931E707A07003FF5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0CEA981E707A07003FF5DB /* KMSDK SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KMSDK SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0CEA9C1E707A07003FF5DB /* KMSDK_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMSDK_SampleUITests.swift; sourceTree = "<group>"; };
+		ED0CEA9E1E707A07003FF5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41D9C94D5C956F9DDAC3623 /* Pods_KMSDK_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMSDK_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED0CEA761E707A07003FF5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F6DC0D65EE506F08D026CB /* Pods_KMSDK_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEA8A1E707A07003FF5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8989FA7B681FC4D648A895FF /* Pods_KMSDK_SampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEA951E707A07003FF5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F361A31B36B43164E9E11A22 /* Pods_KMSDK_SampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91122AA1CCE0B7C6C339BBF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDFA7536F91835E4841836C1 /* Pods-KMSDK Sample.debug.xcconfig */,
+				1F092E5F93324ADFE9208EF2 /* Pods-KMSDK Sample.release.xcconfig */,
+				5EFBF0B0D7A99C52ABC2A55D /* Pods-KMSDK SampleTests.debug.xcconfig */,
+				62879659296FE7628801CF1B /* Pods-KMSDK SampleTests.release.xcconfig */,
+				0EEA217CC7C9C7985F6546BF /* Pods-KMSDK SampleUITests.debug.xcconfig */,
+				C00ED63E2167C9AE14C88A69 /* Pods-KMSDK SampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED0CEA701E707A07003FF5DB = {
+			isa = PBXGroup;
+			children = (
+				ED0CEA7B1E707A07003FF5DB /* KMSDK Sample */,
+				ED0CEA901E707A07003FF5DB /* KMSDK SampleTests */,
+				ED0CEA9B1E707A07003FF5DB /* KMSDK SampleUITests */,
+				ED0CEA7A1E707A07003FF5DB /* Products */,
+				91122AA1CCE0B7C6C339BBF2 /* Pods */,
+				FC98B8650ACAD1F6836E976F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED0CEA7A1E707A07003FF5DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEA791E707A07003FF5DB /* KMSDK Sample.app */,
+				ED0CEA8D1E707A07003FF5DB /* KMSDK SampleTests.xctest */,
+				ED0CEA981E707A07003FF5DB /* KMSDK SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0CEA7B1E707A07003FF5DB /* KMSDK Sample */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEA7C1E707A07003FF5DB /* AppDelegate.swift */,
+				ED0CEA7E1E707A07003FF5DB /* ViewController.swift */,
+				ED0CEA801E707A07003FF5DB /* Main.storyboard */,
+				ED0CEA831E707A07003FF5DB /* Assets.xcassets */,
+				ED0CEA851E707A07003FF5DB /* LaunchScreen.storyboard */,
+				ED0CEA881E707A07003FF5DB /* Info.plist */,
+			);
+			path = "KMSDK Sample";
+			sourceTree = "<group>";
+		};
+		ED0CEA901E707A07003FF5DB /* KMSDK SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEA911E707A07003FF5DB /* KMSDK_SampleTests.swift */,
+				ED0CEA931E707A07003FF5DB /* Info.plist */,
+			);
+			path = "KMSDK SampleTests";
+			sourceTree = "<group>";
+		};
+		ED0CEA9B1E707A07003FF5DB /* KMSDK SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEA9C1E707A07003FF5DB /* KMSDK_SampleUITests.swift */,
+				ED0CEA9E1E707A07003FF5DB /* Info.plist */,
+			);
+			path = "KMSDK SampleUITests";
+			sourceTree = "<group>";
+		};
+		FC98B8650ACAD1F6836E976F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F41D9C94D5C956F9DDAC3623 /* Pods_KMSDK_Sample.framework */,
+				9A3E1121F298096EC9F896CA /* Pods_KMSDK_SampleTests.framework */,
+				5AC87B6003795572BEF6AB28 /* Pods_KMSDK_SampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED0CEA781E707A07003FF5DB /* KMSDK Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0CEAA11E707A07003FF5DB /* Build configuration list for PBXNativeTarget "KMSDK Sample" */;
+			buildPhases = (
+				8FC8680C65268768D9B70BEB /* [CP] Check Pods Manifest.lock */,
+				ED0CEA751E707A07003FF5DB /* Sources */,
+				ED0CEA761E707A07003FF5DB /* Frameworks */,
+				ED0CEA771E707A07003FF5DB /* Resources */,
+				ED0CEAB31E708D66003FF5DB /* Embed Frameworks */,
+				47F0A237BE7C46846578DB1A /* [CP] Embed Pods Frameworks */,
+				5800EF17E2BDF4DB64FF7F98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KMSDK Sample";
+			productName = "KMSDK Sample";
+			productReference = ED0CEA791E707A07003FF5DB /* KMSDK Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED0CEA8C1E707A07003FF5DB /* KMSDK SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0CEAA41E707A07003FF5DB /* Build configuration list for PBXNativeTarget "KMSDK SampleTests" */;
+			buildPhases = (
+				8E5FAC65A9A1287AF8F5E701 /* [CP] Check Pods Manifest.lock */,
+				ED0CEA891E707A07003FF5DB /* Sources */,
+				ED0CEA8A1E707A07003FF5DB /* Frameworks */,
+				ED0CEA8B1E707A07003FF5DB /* Resources */,
+				AB5DA3506A229D1CA49FC2E5 /* [CP] Embed Pods Frameworks */,
+				FCC7F3C5DAB86C4905DDAA5E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0CEA8F1E707A07003FF5DB /* PBXTargetDependency */,
+			);
+			name = "KMSDK SampleTests";
+			productName = "KMSDK SampleTests";
+			productReference = ED0CEA8D1E707A07003FF5DB /* KMSDK SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED0CEA971E707A07003FF5DB /* KMSDK SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0CEAA71E707A07003FF5DB /* Build configuration list for PBXNativeTarget "KMSDK SampleUITests" */;
+			buildPhases = (
+				0120BBF8068831E415F2FE7F /* [CP] Check Pods Manifest.lock */,
+				ED0CEA941E707A07003FF5DB /* Sources */,
+				ED0CEA951E707A07003FF5DB /* Frameworks */,
+				ED0CEA961E707A07003FF5DB /* Resources */,
+				E26E33936194811236743BFE /* [CP] Embed Pods Frameworks */,
+				3415803EA0B183BF58330562 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0CEA9A1E707A07003FF5DB /* PBXTargetDependency */,
+			);
+			name = "KMSDK SampleUITests";
+			productName = "KMSDK SampleUITests";
+			productReference = ED0CEA981E707A07003FF5DB /* KMSDK SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED0CEA711E707A07003FF5DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kiswe;
+				TargetAttributes = {
+					ED0CEA781E707A07003FF5DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7K9LAY2P6A;
+						ProvisioningStyle = Automatic;
+					};
+					ED0CEA8C1E707A07003FF5DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7K9LAY2P6A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED0CEA781E707A07003FF5DB;
+					};
+					ED0CEA971E707A07003FF5DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7K9LAY2P6A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED0CEA781E707A07003FF5DB;
+					};
+				};
+			};
+			buildConfigurationList = ED0CEA741E707A07003FF5DB /* Build configuration list for PBXProject "KMSDK Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED0CEA701E707A07003FF5DB;
+			productRefGroup = ED0CEA7A1E707A07003FF5DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0CEA781E707A07003FF5DB /* KMSDK Sample */,
+				ED0CEA8C1E707A07003FF5DB /* KMSDK SampleTests */,
+				ED0CEA971E707A07003FF5DB /* KMSDK SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED0CEA771E707A07003FF5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0CEA871E707A07003FF5DB /* LaunchScreen.storyboard in Resources */,
+				ED0CEA841E707A07003FF5DB /* Assets.xcassets in Resources */,
+				ED0CEA821E707A07003FF5DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEA8B1E707A07003FF5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEA961E707A07003FF5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0120BBF8068831E415F2FE7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3415803EA0B183BF58330562 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMSDK SampleUITests/Pods-KMSDK SampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47F0A237BE7C46846578DB1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMSDK Sample/Pods-KMSDK Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5800EF17E2BDF4DB64FF7F98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMSDK Sample/Pods-KMSDK Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E5FAC65A9A1287AF8F5E701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC8680C65268768D9B70BEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5DA3506A229D1CA49FC2E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMSDK SampleTests/Pods-KMSDK SampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26E33936194811236743BFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMSDK SampleUITests/Pods-KMSDK SampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC7F3C5DAB86C4905DDAA5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMSDK SampleTests/Pods-KMSDK SampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED0CEA751E707A07003FF5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0CEA7F1E707A07003FF5DB /* ViewController.swift in Sources */,
+				ED0CEA7D1E707A07003FF5DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEA891E707A07003FF5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0CEA921E707A07003FF5DB /* KMSDK_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEA941E707A07003FF5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0CEA9D1E707A07003FF5DB /* KMSDK_SampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED0CEA8F1E707A07003FF5DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0CEA781E707A07003FF5DB /* KMSDK Sample */;
+			targetProxy = ED0CEA8E1E707A07003FF5DB /* PBXContainerItemProxy */;
+		};
+		ED0CEA9A1E707A07003FF5DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0CEA781E707A07003FF5DB /* KMSDK Sample */;
+			targetProxy = ED0CEA991E707A07003FF5DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED0CEA801E707A07003FF5DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0CEA811E707A07003FF5DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED0CEA851E707A07003FF5DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0CEA861E707A07003FF5DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED0CEA9F1E707A07003FF5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED0CEAA01E707A07003FF5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED0CEAA21E707A07003FF5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFA7536F91835E4841836C1 /* Pods-KMSDK Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7K9LAY2P6A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "KMSDK Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiswe.KMSDK-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED0CEAA31E707A07003FF5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F092E5F93324ADFE9208EF2 /* Pods-KMSDK Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7K9LAY2P6A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "KMSDK Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiswe.KMSDK-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED0CEAA51E707A07003FF5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EFBF0B0D7A99C52ABC2A55D /* Pods-KMSDK SampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7K9LAY2P6A;
+				INFOPLIST_FILE = "KMSDK SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiswe.KMSDK-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMSDK Sample.app/KMSDK Sample";
+			};
+			name = Debug;
+		};
+		ED0CEAA61E707A07003FF5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62879659296FE7628801CF1B /* Pods-KMSDK SampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7K9LAY2P6A;
+				INFOPLIST_FILE = "KMSDK SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiswe.KMSDK-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMSDK Sample.app/KMSDK Sample";
+			};
+			name = Release;
+		};
+		ED0CEAA81E707A07003FF5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EEA217CC7C9C7985F6546BF /* Pods-KMSDK SampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7K9LAY2P6A;
+				INFOPLIST_FILE = "KMSDK SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiswe.KMSDK-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "KMSDK Sample";
+			};
+			name = Debug;
+		};
+		ED0CEAA91E707A07003FF5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00ED63E2167C9AE14C88A69 /* Pods-KMSDK SampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7K9LAY2P6A;
+				INFOPLIST_FILE = "KMSDK SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiswe.KMSDK-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "KMSDK Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED0CEA741E707A07003FF5DB /* Build configuration list for PBXProject "KMSDK Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0CEA9F1E707A07003FF5DB /* Debug */,
+				ED0CEAA01E707A07003FF5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0CEAA11E707A07003FF5DB /* Build configuration list for PBXNativeTarget "KMSDK Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0CEAA21E707A07003FF5DB /* Debug */,
+				ED0CEAA31E707A07003FF5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED0CEAA41E707A07003FF5DB /* Build configuration list for PBXNativeTarget "KMSDK SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0CEAA51E707A07003FF5DB /* Debug */,
+				ED0CEAA61E707A07003FF5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED0CEAA71E707A07003FF5DB /* Build configuration list for PBXNativeTarget "KMSDK SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0CEAA81E707A07003FF5DB /* Debug */,
+				ED0CEAA91E707A07003FF5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED0CEA711E707A07003FF5DB /* Project object */;
+}
