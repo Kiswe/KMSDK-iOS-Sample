@@ -1,16 +1,16 @@
 {
   "name": "KMSDK",
-  "version": "0.1.0",
-  "summary": "New KMSDK",
-  "description": "This is technically KMSDK v4.",
-  "homepage": "https://bitbucket.org/kiswe/kmsdk-ios.git",
+  "version": "0.1.1",
+  "summary": "Kiswe iOS SDK",
+  "description": "Kiswe iOS SDK",
+  "homepage": "http://developer.kiswe.com/",
   "license": "Private",
   "authors": {
     "Rodrigo Pacheco Curro": "rodrigo.pachecocurro@kiswe.com"
   },
   "source": {
-    "git": "https://bitbucket.org/kiswe/kmsdk-ios.git",
-    "tag": "0.1.0"
+    "git": "https://bitbucket.org/kiswe/kmsdk-ios-public.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.3"

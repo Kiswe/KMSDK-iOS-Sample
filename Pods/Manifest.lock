@@ -25,7 +25,7 @@ PODS:
   - Crashlytics (3.8.4):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.11)
-  - KMSDK (0.1.0):
+  - KMSDK (2.0.1):
     - AFNetworking (~> 3.1.0)
     - CocoaLumberjack (~> 3.1.0)
     - CocoaLumberjack/Swift (~> 3.1.0)
@@ -42,7 +42,7 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
   Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
-  KMSDK: 5930497bddcaf2edf215beac09171395aa9c8ee9
+  KMSDK: a782199bc6fd83bdbaf63e80aa5d83a0b265775b
   WebViewJavascriptBridge: 791ee0e26d1bf15efe5fb7fb9666a71a19b89d77
 
 PODFILE CHECKSUM: b1635a5a4cba79b44f3d1073439030fe7ae7cace
