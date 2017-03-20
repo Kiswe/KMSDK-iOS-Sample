@@ -17,6 +17,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         KMSDK.shared.setAPIToken("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJLaXN3ZSIsInN1YiI6IjEzODU2MiIsImV4cCI6IjIwMTctMDktMDhUMjE6NTU6MzAuNzk0WiJ9.qgveH0QTXoHmJZRQNFeMl6Uy9kTtXXbKod-cj1x9bXI")
+
+        NotificationCenter.default.addObserver(self, selector: #selector(handleSwitchStreamNotification(_:)), name: .playerSwitchingStream, object: nil)
+    }
+
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
 
     @IBAction func didTapPresentButton(_ sender: UIButton) {
@@ -26,7 +32,12 @@ class ViewController: UIViewController {
                 self.present(mediaVC, animated: true, completion: nil)
             }
         }
-        
+    }
+
+    func handleSwitchStreamNotification(_ notification: Notification) {
+        let fromStream = notification.userInfo?[playerSwitchingFromStreamKey] as? String
+        let toStream = notification.userInfo?[playerSwitchingToStreamKey] as? String
+        print("switched from stream \(fromStream) to \(toStream)")
     }
 }
 
