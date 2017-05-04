@@ -94,6 +94,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/KMSDK/KMSDK.framework"
   install_framework "${PODS_ROOT}/KMSDK/RTArchiver.framework"
   install_framework "${PODS_ROOT}/KMSDK/KiswePlaybackControls.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SlackTextViewController/SlackTextViewController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/WebViewJavascriptBridge/WebViewJavascriptBridge.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -102,6 +103,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/KMSDK/KMSDK.framework"
   install_framework "${PODS_ROOT}/KMSDK/RTArchiver.framework"
   install_framework "${PODS_ROOT}/KMSDK/KiswePlaybackControls.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SlackTextViewController/SlackTextViewController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/WebViewJavascriptBridge/WebViewJavascriptBridge.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

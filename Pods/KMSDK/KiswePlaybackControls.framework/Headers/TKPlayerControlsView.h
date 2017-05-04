@@ -129,6 +129,8 @@ extern NSString* const TK_playerControlsViewDidHideControlsNotification;
 
 // State
 @property (nonatomic, readonly) bool controlsVisible;
+@property (nonatomic, assign) bool controlsShouldBeVisible;
+@property (nonatomic, assign) bool rotateButtonVisible;
 @property (nonatomic, readonly) bool isPaused;
 @property (nonatomic, readonly) bool isFullView;
 @property (nonatomic, readonly) TKControlsSliderState sliderState;

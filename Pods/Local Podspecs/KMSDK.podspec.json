@@ -1,6 +1,6 @@
 {
   "name": "KMSDK",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "summary": "Kiswe iOS SDK",
   "description": "Kiswe iOS SDK",
   "homepage": "http://developer.kiswe.com/",
@@ -10,10 +10,10 @@
   },
   "source": {
     "git": "https://bitbucket.org/kiswe/kmsdk-ios-public-frameworks.git",
-    "tag": "2.0.1"
+    "tag": "2.1.0"
   },
   "platforms": {
-    "ios": "9.3"
+    "ios": "9.0"
   },
   "dependencies": {
     "WebViewJavascriptBridge": [
@@ -27,8 +27,16 @@
     ],
     "AFNetworking": [
       "~> 3.1.0"
+    ],
+    "SlackTextViewController": [
+      "~> 1.9.5"
     ]
   },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "WebKit"
+  ],
   "vendored_frameworks": [
     "KMSDK.framework",
     "RTArchiver.framework",
