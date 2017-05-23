@@ -17,6 +17,7 @@
 		ED0CEA871E707A07003FF5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEA851E707A07003FF5DB /* LaunchScreen.storyboard */; };
 		ED0CEA921E707A07003FF5DB /* KMSDK_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEA911E707A07003FF5DB /* KMSDK_SampleTests.swift */; };
 		ED0CEA9D1E707A07003FF5DB /* KMSDK_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEA9C1E707A07003FF5DB /* KMSDK_SampleUITests.swift */; };
+		ED9C605D1ECE3F0C000A7843 /* ObjcExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9C605C1ECE3F0C000A7843 /* ObjcExampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,9 @@
 		ED0CEA981E707A07003FF5DB /* KMSDK SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KMSDK SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0CEA9C1E707A07003FF5DB /* KMSDK_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMSDK_SampleUITests.swift; sourceTree = "<group>"; };
 		ED0CEA9E1E707A07003FF5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9C605A1ECE3F0B000A7843 /* KMSDK Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KMSDK Sample-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED9C605B1ECE3F0C000A7843 /* ObjcExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcExampleViewController.h; sourceTree = "<group>"; };
+		ED9C605C1ECE3F0C000A7843 /* ObjcExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcExampleViewController.m; sourceTree = "<group>"; };
 		F9D108AA0B2DB20F399ABB19 /* Pods-KMSDK Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMSDK Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMSDK Sample/Pods-KMSDK Sample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,10 +146,13 @@
 			children = (
 				ED0CEA7C1E707A07003FF5DB /* AppDelegate.swift */,
 				ED0CEA7E1E707A07003FF5DB /* ViewController.swift */,
+				ED9C605B1ECE3F0C000A7843 /* ObjcExampleViewController.h */,
+				ED9C605C1ECE3F0C000A7843 /* ObjcExampleViewController.m */,
 				ED0CEA801E707A07003FF5DB /* Main.storyboard */,
 				ED0CEA831E707A07003FF5DB /* Assets.xcassets */,
 				ED0CEA851E707A07003FF5DB /* LaunchScreen.storyboard */,
 				ED0CEA881E707A07003FF5DB /* Info.plist */,
+				ED9C605A1ECE3F0B000A7843 /* KMSDK Sample-Bridging-Header.h */,
 			);
 			path = "KMSDK Sample";
 			sourceTree = "<group>";
@@ -258,6 +265,7 @@
 					ED0CEA781E707A07003FF5DB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7K9LAY2P6A;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					ED0CEA8C1E707A07003FF5DB = {
@@ -479,6 +487,7 @@
 			files = (
 				ED0CEA7F1E707A07003FF5DB /* ViewController.swift in Sources */,
 				ED0CEA7D1E707A07003FF5DB /* AppDelegate.swift in Sources */,
+				ED9C605D1ECE3F0C000A7843 /* ObjcExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +640,7 @@
 			baseConfigurationReference = F9D108AA0B2DB20F399ABB19 /* Pods-KMSDK Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7K9LAY2P6A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -641,6 +651,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kiswe.KMSDK-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KMSDK Sample/KMSDK Sample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -650,6 +662,7 @@
 			baseConfigurationReference = 8BE758589F2D772FFFDB6CC7 /* Pods-KMSDK Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7K9LAY2P6A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -660,6 +673,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kiswe.KMSDK-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KMSDK Sample/KMSDK Sample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
