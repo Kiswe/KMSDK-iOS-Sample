@@ -1,10 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://bitbucket.org/kiswe/kiswe-public-specs.git'
 
 target 'KMSDK Sample' do
   use_frameworks!
 
-  pod 'KMSDK'
+  pod 'KMSDK', '2.1.5'
   pod 'Fabric'
   pod 'Crashlytics'
 
